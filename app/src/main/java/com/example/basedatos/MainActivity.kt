@@ -14,19 +14,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        studentsDb.stundetsGetAll()
-
-
-        var values= StudentsEntity(3,"Xochitl","Monfante",1,"1986/11/16")
-        studentsDb.studentEdit(values)
-
-    Log.d("UDELP","Después de editar")
-        studentsDb.stundetsGetAll()
-
-
-
-
-
-
     }
 }
